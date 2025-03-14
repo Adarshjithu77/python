@@ -7,7 +7,7 @@
 #     print(i)
 # a=int(input("enter starting:"))
 # b=int(input("enter ending: "))
-# sum=10
+# sum=0
 # for i in range (a,b+1):
 #     # sum=sum+i
 #     sum+=i
@@ -18,12 +18,13 @@
 # for i in range(a,b+1):
 #     prd*=i
 # print("prd",prd)
-# 
+# to find odd numbers
 # a=int(input("enter starting"))
 # b=int(input("enter ending"))
 # for i in range(a,b+1):
 #     if i%2==1:
-#         print(i)
+#         print(i) 
+# tofind sum of odd numbers
    
 # a=int(input("enter starting"))
 # b=int(input("enter ending"))
@@ -91,3 +92,99 @@
 #     print("grade is D ")
 # else:
 #     print("it is not eligible for studies")
+# year=int(input("enter the year"))
+# if year%4==0:
+#     print("year is leap year")
+# else:
+#     print("year is not leap year")
+# a=int(input("enter a number:"))
+# for i in range(10,10000):
+#     if 10<100:
+#     print("Two digit")
+    
+# i=0
+# while i<=10:
+#     print(i)
+#     i+=1
+# i=1
+# while i<=10:
+#     print('hello')
+#     i+=1
+
+# a=int(input("enter starting:"))
+# b=int(input("enter ending:"))
+# while a<=b:
+#     print(a)
+#     a+=1
+# a=int(input("enter starting:"))
+# b=int(input("enter ending: "))
+# sum=0
+# while a<=b:
+# #     # sum=sum+i
+#     sum+=a
+#     a+=1
+# print("sum",sum)
+
+# a=int(input("enter starting:"))
+# b=int(input("enter ending"))
+# prd=1
+# while a<=b:
+#     prd*=a
+#     a+=1
+# print("prd",prd)
+# a=int(input("enter starting"))
+# b=int(input("enter ending"))
+# while a<=b:
+#     if a%2==1:
+#         print(a)
+#     a+=1
+# a=int(input("enter starting"))
+# b=int(input("enter ending"))
+# while a<=b:
+#     if a%2==0:
+#         print(a)
+#     a+=1
+# a=int(input("enter starting"))
+# b=int(input("enter ending"))
+# sum=0
+# while a<=b:
+#     if a%2==1:
+#         sum=sum+a
+#     a+=1
+# print("sum",sum)
+# a=int(input("enter starting"))
+# b=int(input("enter ending"))
+# sum=0
+# while a<=b:
+#     if a%2==0:
+#         sum=sum+a
+#     a+=1
+# print("sum",sum)
+# a=int(input("enter starting"))
+# b=int(input("enter ending"))
+# sum1=0
+# sum2=0
+# sum3=0
+# while a<=b:
+#     if a%2==0:
+#         sum1+=a
+#     else:
+#         sum2+=a
+#     sum3=sum3+a
+#     a+=1
+# print(sum1,sum2,sum3)
+# a=int(input("enter a first number:"))
+# b=int(input("enter a second number"))
+# while a<=b:
+#     if a%3==0:
+#         print(a)
+#     a+=1
+# i=1
+# a=int(input("enter a number: "))
+# while i<=10:
+#     print(i,"*",a,"=",i*a)
+#     i+=1
+
+  
+
+   
