@@ -184,6 +184,36 @@
 # while i<=10:
 #     print(i,"*",a,"=",i*a)
 #     i+=1
+# i=1
+# a=int(input("enter a number"))
+# while a:
+# #     print(i)
+
+# a=int(input("enter a number"))
+# count=0
+# while a>0:
+#     count+=1
+#     a//=10
+# print("number of digits",count)
+# a=int(input("enter a number"))
+# rev=0
+# while a>0:
+#     d=a%10
+#     # print(d)
+#     a=a//10
+#     rev=(rev*10)+d
+# print(rev)
+
+# a=int(input("enter a number"))
+# sum=0
+# while a>0:
+#     d=a%10
+#     a//=10
+#     # print(d)
+#     sum=sum+d
+# print("sum of the digit",sum)
+
+   
 
   
 
