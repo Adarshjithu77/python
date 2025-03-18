@@ -385,13 +385,13 @@
 #         print(a,end=" ")
 #         a+=3
 #     print()
-a=3
-for i in range(4):
-    for j in range(1,a+1):
-         if i%2==0:
-             print(j-1,end=" ")
-         else:
-             print(a-j,end=" ")
-    print()
+# a=3
+# for i in range(4):
+#     for j in range(1,a+1):
+#          if i%2==0:
+#              print(j-1,end=" ")
+#          else:
+#              print(a-j,end=" ")
+#     print()
         
     
