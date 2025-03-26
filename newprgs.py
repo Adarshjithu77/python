@@ -239,3 +239,68 @@
 #     count+=1
 #     a//=10
 # print("number of digits",count)
+
+# a=int(input("enter a number"))
+# rev=0
+# while a>0:
+#     d=a%10
+#     # print(d)
+#     a=a//10
+#     rev=(rev*10)+d
+# print(rev)
+
+# a=int(input("enter a number"))
+# sum=0
+# while a>0:
+#     d=a%10
+#     a//=10
+#     # print(d)
+#     sum=sum+d
+# print("sum of the digit",sum)
+
+# l=[]
+# a=int(input("starting"))
+# b=int(input("ending"))
+# for i in range(a,b+1):
+#     l.append(i)
+# print(l)
+
+# l=[]
+# a=int(input("starting"))
+# b=int(input("ending"))
+# for i in range(a,b+1):
+#     if i%2==0:
+#         l.append(i)
+# print(l)
+
+# sum1=0
+# sum2=0
+# sum3=0
+# l=[1,2,2,3,4,4,4,5,6]
+# for i in l:
+#     if i%2==0:
+#         sum1+=i
+#     else:
+#         sum2+=i
+#     sum3+=i
+# print(sum1,sum2,sum3)
+
+# l=['python','java','php']
+# for i in l:
+#   rev=''
+#   for j in i:
+#     rev=j+rev
+#   print(rev)
+
+# l=['apple','mango','kivi']
+# a=input("enter a letter:")
+# for i in l:
+#     if a in i:
+#         print(i)
+
+l=['apple','mango','kivi']
+a=input("enter a letter:")
+for i in l:
+    if a==i[0]:
+         print(i[0])
+         print(i)
