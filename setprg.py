@@ -67,21 +67,55 @@ s={1,2,3,4}
 #     s.add(b)
 #     print(s)
 
-python=set()
-php=set()
-java=set()
-a=int(input("enter how many students in python:"))
-for i in range(0,a):
-    b=input("enter python students name")
-    python.add(b)
-c=int(input("enetr how many students in php"))
-for j in range(0,c):
-    d=input("enter php students name:")
-    php.add(d)
-e=int(input("eneter how many students in java:"))
-for k in range(0,e):
-    f=input("enter java students name:")
-    java.add(f)
-print("python",python)
-print("php",php)
-print("java",java)
+# python=set()
+# php=set()
+# java=set()
+# a=int(input("enter how many students in python:"))
+# for i in range(0,a):
+#     b=input("enter python students name")
+#     python.add(b)
+# c=int(input("enetr how many students in php"))
+# for j in range(0,c):
+#     d=input("enter php students name:")
+#     php.add(d)
+# e=int(input("eneter how many students in java:"))
+# for k in range(0,e):
+#     f=input("enter java students name:")
+#     java.add(f)
+# print("python",python)
+# print("php",php)
+# print("java",java)
+# g=python.intersection(php).intersection(java)
+# print(g)
+# h=python.difference(php).difference(java)
+# print(h,"std only in python")
+# i=php.difference(python).difference(java)
+# print(i,"std only in php")
+# j=java.difference(python).difference(php)
+# print(j,"std only in java")
+# print(h.union(i).union(j))
+
+# d={}
+# d={'name':'amal','age':22,'place':'ekm','english':22}
+# print(d['name'])
+# d['name']='manu'
+# d['phno']=9836468910
+# print(d['name'])
+# print(d['phno'])
+# print(d)
+# if d['name']=='manu':
+#      print('yes')
+# else:
+#      print('no')
+# for i in d:
+#      print(i,d[i])
+
+# d={}
+# a=input("enter name:")
+# b=int(input("roll_number"))
+# c=int(input("age"))
+# d['name']=a
+# d['roll_number']=b
+# d['age']=c
+# print(d)
+
