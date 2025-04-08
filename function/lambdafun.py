@@ -1,3 +1,8 @@
+add=lambda a,b:a+b
+print(add(10,5))
+
+
+
 add =lambda a,b:(a+b)
 
 sub=lambda a,b:(a-b)
