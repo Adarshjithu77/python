@@ -212,12 +212,9 @@
 #     # print(d)
 #     sum=sum+d
 # print("sum of the digit",sum)
-a=input("enter bookid,bookname,authorname")
-if a.isdigit():
-    a=int(a)
-print(type(a))
-
-
-  
-
-   
+# a=input("enter bookid,bookname,authorname")
+# if a.isdigit():
+#     a=int(a)
+# print(type(a))
+email="adarshjithu77@gmail.com"
+print(type(email))
