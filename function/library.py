@@ -21,7 +21,7 @@ def update():
     lib_id=int(input("enter lib_id:"))
     f=0
     for lib in library:
-        if lib['lib_id']==lib:
+        if lib['lib_id']==lib_id:
             f=1
             updatedbookname=input("enter updatedbook name")
             lib['book_name']=updatedbookname
@@ -48,12 +48,12 @@ def delete():
         print("no record found")
 
 def search():
-    search=input("enter lib_id or book_name or author_name:")
+    search=input("enter lib_id or bookname or authorname:")
     if search.isdigit():#digit aanonn check chyn
         search=int(search)
     f=0
     for lib in library:
-         if lib['lib_id']==search or lib['book_name']==search or lib['author_name']==search:#id anno name anno author name anno equal akunnth enn chck chyn condition
+         if lib['lib_id']==search or lib['bookname']==search or lib['authorname']==search:#id anno name anno author name anno equal akunnth enn chck chyn condition
             print("lib",lib)
             f=1
     if f==0:
