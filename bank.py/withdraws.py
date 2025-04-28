@@ -1,3 +1,3 @@
-def withdraw(bnk):
+def withdraw(bank):
         withraw=int(input("enter withraw amount"))
-        bnk['balance_amount']-=withraw
+        bank['balance_amount']-=withraw

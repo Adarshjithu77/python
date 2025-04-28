@@ -1,6 +1,4 @@
-employ=[]
-
-def search():
+def search(employ):
     emp1=int(input("enter emp_id:"))
     f=0
     for emp in employ:

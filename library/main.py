@@ -1,3 +1,4 @@
+library=[]
 from registers import register
 from views import view
 from updates import update
@@ -13,15 +14,15 @@ while True:
 6.exit""")
     choice=int(input("enter your choice:"))
     if choice==1:
-        register()
+        register(library)
     elif choice==2:
-        view()
+        view(library)
     elif choice==3:
-        update()
+        update(library)
     elif choice==4:
-        delete()
+        delete(library)
     elif choice==5:
-        search()
+        search(library)
     else:
         print("exit")
         break

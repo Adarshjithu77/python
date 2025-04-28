@@ -1,6 +1,4 @@
-employ=[]
-
-def register():
+def register(employ):
     if len(employ)==0:
         emp=1
     else:

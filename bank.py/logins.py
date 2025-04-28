@@ -1,6 +1,4 @@
-bank=[]
-
-def login():
+def login(bank):
     username=input("enter username")
     password=input("enter password")
     f=0

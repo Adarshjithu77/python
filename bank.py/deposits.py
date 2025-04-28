@@ -1,3 +1,3 @@
-def deposit(bnk):
+def deposit(bank):
         deposit=int(input("enter deposit amount:"))
-        bnk['balance_amount']+=deposit
+        bank['balance_amount']+=deposit

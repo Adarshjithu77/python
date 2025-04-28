@@ -1,6 +1,4 @@
-bank=[]
-
-def register():
+def register(bank):
     if len(bank)==0:
         bnk=1
     else:

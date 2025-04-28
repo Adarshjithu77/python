@@ -1,6 +1,6 @@
-library=[]
 
-def register():
+
+def register(library):
     if len(library)==0:
         lib=1
     else:

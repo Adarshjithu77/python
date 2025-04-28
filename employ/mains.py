@@ -1,3 +1,4 @@
+employ=[]
 from registers import register
 from views import view
 from updates import update
@@ -13,15 +14,15 @@ while True:
 6.exit""")
     choice=int(input("enter your choice:"))
     if choice==1:
-        register()
+        register(employ)
     elif choice==2:
-        view()
+        view(employ)
     elif choice==3:
-        update()
+        update(employ)
     elif choice==4:
-        delete()
+        delete(employ)
     elif choice==5:
-        search()
+        search(employ)
     else:
         print("exit")
         break

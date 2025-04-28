@@ -1,3 +1,4 @@
+bank=[]
 from registers import register
 from logins import login
 from deposits import deposit
@@ -10,9 +11,9 @@ while True:
 3.exit """)
     ch=int(input("enter your choice:"))
     if ch ==1:
-        register()
+        register(bank)
     elif ch==2:
-        f,bnk=login()
+        f,bnk=login(bank)
         print(f)
         if f==1:
             while True:
@@ -23,11 +24,11 @@ while True:
 4.exit """)
                 ch1=int(input("enter your choice:"))
                 if ch1==1:
-                    deposit(bnk)
+                    deposit(bank)
                 elif ch1==2:
-                     withdraw(bnk)
+                     withdraw(bank)
                 elif ch1==3:
-                     balance_amount(bnk)
+                     balance_amount(bank)
                 elif ch1==4:
                     print("exit")
                     break

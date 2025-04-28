@@ -1,6 +1,6 @@
-library=[]
 
-def search():
+
+def search(library):
     search=input("enter lib_id or bookname or authorname:")
     if search.isdigit():#digit aanonn check chyn
         search=int(search)

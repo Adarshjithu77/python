@@ -1,6 +1,6 @@
-library=[]
 
-def update():
+
+def update(library):
     lib_id=int(input("enter lib_id:"))
     f=0
     for lib in library:

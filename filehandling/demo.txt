@@ -1,0 +1,3 @@
+Hello
+Welcome to all
+Its a sample file1

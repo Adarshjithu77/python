@@ -1,2 +1,2 @@
-def balance_amount(bnk):
-        print(bnk['balance_amount'])
+def balance_amount(bank):
+        print(bank['balance_amount'])
