@@ -216,5 +216,5 @@
 # if a.isdigit():
 #     a=int(a)
 # print(type(a))
-email="adarshjithu77@gmail.com"
-print(type(email))
+# email="adarshjithu77@gmail.com"
+# print(type(email))

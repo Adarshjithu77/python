@@ -13,7 +13,7 @@ lower=0
 
 for i in range(len(content)):
     line = f.readline().strip()
-    for j in line:
+    for j in line: 
         if j == " ":
             words+=1 #space vrumbo increment akn
         else:
